@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(221, 221, 235);
+    margin: 0px;
+    
+}
+.main{
+    padding-top: 70px;
+    display: flex;
+    
+}
+.main-left-seccion{
+    margin-left: 150px;
+    flex: 3;
+}
+.main-rigt-seccion{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 300px;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+}
+.main-introduction-text,
+.main-hello-text{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.main-introduction-text{
+    margin-top: 15px;
+}
+.iAm-text, 
+.WD-text{
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;   
+}
+.WD-text{
+    color: rgb(179, 26, 26);
+    padding-left: 6px;
+}
+.about-me-button{
+    border: none;
+    background-color: rgb(87, 47, 235);
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 6px 6px 20px rgba(117, 75, 254, 0.693);
+}
+.about-me-button:hover{
+    background-color: rgb(73, 28, 235);
+}
